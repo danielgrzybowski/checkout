@@ -15,6 +15,6 @@ Please populate credentials in cypress/fixtures/loginData.json, as they are not 
 Tests can be run in two different modes:
 
 - **Interactive mode (with UI):** Run `npm run cypress-open` to open the Cypress in a graphical interface.
-- **Headless mode:** Run `npm run cypress run --browser electron` to execute all tests in headless mode, using the default Electron browser.
+- **Headless mode:** Run `npm run cypress-run` to execute all tests in headless mode, using the default Electron browser.
 
 If you want to use a different browser (chrome, firefox or edge) in headless mode, make sure it is installed on your system and replace `electron` with the name of your preferred browser.
